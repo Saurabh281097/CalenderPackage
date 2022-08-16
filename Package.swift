@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "CalendarControl",
-            path: "Users/saurabhmohrir/Desktop/IOSSDK/CalenderFramework/CaldenderControl/build/CalendarControl.xcframework"),
+            path: "Users/saurabhmohrir/Desktop/IOSSDK/CalenderPackage/Sources/CalendarControl.xcframework"),
         .target(
             name: "CalenderPackage",
             dependencies: []),
