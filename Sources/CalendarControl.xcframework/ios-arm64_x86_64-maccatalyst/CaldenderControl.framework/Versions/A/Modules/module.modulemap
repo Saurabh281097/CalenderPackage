@@ -1,0 +1,11 @@
+framework module CaldenderControl {
+  umbrella header "CaldenderControl.h"
+
+  export *
+  module * { export * }
+}
+
+module CaldenderControl.Swift {
+    header "CaldenderControl-Swift.h"
+    requires objc
+}
