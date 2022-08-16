@@ -5,15 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "CalenderPackage",
-    platforms: [
-      .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
-    ],
-
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "CalenderPackage",
-            targets: ["CalenderPackage"]),
+            name: "CalendarControl",
+            targets: ["CalendarControl"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
